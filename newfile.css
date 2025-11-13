@@ -1,0 +1,89 @@
+
+section {
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 1000px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  color: #333;
+  
+}
+
+
+.intro h1 {
+  font-size: 28px;
+  color: #0b7a4f; 
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.intro p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.rate-table h2 {
+  font-size: 22px;
+  color: #0b7a4f;
+  border-bottom: 3px solid #0b7a4f;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+
+.rate-table p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+
+.rate-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.rate-table table td {
+  border: 1px solid #0b7a4f;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.rate-table table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.rate-table table td:first-child {
+  font-weight: bold;
+  color: #0b7a4f;
+}
+
+.rate-table table td:last-child {
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.rate-table table tr:hover {
+  background: #e6f5ee; 
+  transition: 0.3s;
+}
+
+.page-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  max-width: 500px;
+}
+
